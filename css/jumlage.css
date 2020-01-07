@@ -3,7 +3,7 @@ body {
     background-color: #dea;
     /* text align center à cause d'internet Explorer(les anciennes version d'IE) */
     text-align: center;
-    font: 0.8em 'PT Sans', sans-serif; /* ceci est la version racourcie desdeux lignes suivantes  */
+    font: 0.8em 'Dosis', sans-serif; /* ceci est la version racourcie desdeux lignes suivantes  */
     /* font-family: 'PT Sans', sans-serif;
     font-size: 0.8em; */
     margin: 10px 0;
@@ -45,42 +45,6 @@ header h1 a {
     text-indent: -5000px;
 }
 
-ul#menu {
-    height: 35px;
-    margin: 0;
-    padding: 0 ; 
-   /* on met l'image de fond avec un décalage de 25 pixeles vers le haut */
-    list-style: none;
-    background: url(../img/bg_menu.gif) repeat-x 0 -25px  ;
-    
-}
-
-ul#menu li {
-    /* on rend les li flottant pour les afficher horizontalement  */
-    text-align: center  ;    
-    float: left;
-}
-
-ul#menu li a {
-    width: 130px;
-    /* grâce à la propriété display: block on peut dimensionner les a  */
-    display: block;
-    border-right: 2px solid #eda;
-
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
-    letter-spacing: 2px;
-    line-height: 25px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-ul#menu li a:hover {
-    /* on décale l'image de fond au passage de la souris, ou au survol de la souris , ce qui fait une "animation"  */
-    background: url(../img/bg_menu.gif) repeat-x 0 0 ;
-}
-
 main {
     /* padding pour main afin de caler les contenu dans main et de laisser la place à l'image en arriére plan  */
     padding: 0 30px 400px 100px;
@@ -94,7 +58,9 @@ main h2 {
     border-bottom: 1px solid #9b2; 
     color: #9b2;
     background: url(../img/little_apple.gif) no-repeat left top;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    font-family: 'Gelasio', serif;
+    /* text-transform: uppercase; */
     line-height: 25px;     
 }
 main h3 {
@@ -130,3 +96,38 @@ footer p {
     text-align: right;
 }
 
+ul#menu {
+    height: 35px;
+    margin: 0;
+    padding: 0 ; 
+   /* on met l'image de fond avec un décalage de 25 pixeles vers le haut */
+    list-style: none;
+    background: url(../img/bg_menu.gif) repeat-x 0 -25px  ;
+    
+}
+
+ul#menu li {
+    /* on rend les li flottant pour les afficher horizontalement  */
+    text-align: center  ;    
+    float: left;
+}
+
+ul#menu li a {
+    width: 130px;
+    /* grâce à la propriété display: block on peut dimensionner les a  */
+    display: block;
+    border-right: 2px solid #eda;
+
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ul#menu li a:hover {
+    /* on décale l'image de fond au passage de la souris, ou au survol de la souris , ce qui fait une "animation"  */
+    background: url(../img/bg_menu.gif) repeat-x 0 0 ;
+}
